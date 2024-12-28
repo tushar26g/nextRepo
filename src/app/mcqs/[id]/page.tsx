@@ -5,7 +5,7 @@ import URL from "../../../../public/properties";
 
 // Fetch MCQ data by ID
 async function getMCQData(id: string): Promise<MCQ> {
-  const res = await fetch(`${URL}/public/mcqs?key=${encodeURIComponent(id)}`, {
+  const res = await fetch(`${URL}public/mcqs?key=${encodeURIComponent(id)}`, {
     next: { revalidate: 3600 }, // Cache for 1 hour
   });
   console.log(res);
