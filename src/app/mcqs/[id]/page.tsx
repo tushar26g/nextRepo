@@ -15,9 +15,14 @@ async function getMCQData(id: string): Promise<MCQ> {
   return res.json();
 }
 
-export default async function MCQPage({ params }: { params: { id: string } }) {
-  // Fetch MCQ data based on the route's dynamic parameter
+interface PageParams {
+  params: {
+    id: string;
+  };
+  // searchParams?: { [key: string]: string | string[] | undefined };
+}
 
+export default async function MCQPage({ params }: PageParams) {
   const mcqData = await getMCQData(params.id);
 
   return (
