@@ -15,19 +15,24 @@ async function getMCQData(id: string): Promise<MCQ> {
   return res.json();
 }
 
-interface PageParams {
-  params: {
-    id: string;
-  };
-  // searchParams?: { [key: string]: string | string[] | undefined };
+type Params = Promise<{ id: string }>;
+
+export default async function MCQPage({ params }: { params: Params }) {
+  let mcqData: MCQ;
+  try {
+    const { id } = await params;
+    mcqData = await getMCQData(id);
+    return (
+      <Suspense fallback={<div>Loading...</div>}>
+        <MCQClient initialMCQ={mcqData} />
+      </Suspense>
+    );
+  } catch (error) {
+    console.error("Error fetching MCQ data:", error);
+    return <div>error</div>;
+  }
 }
 
-export default async function MCQPage({ params }: PageParams) {
-  const mcqData = await getMCQData(params.id);
-
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <MCQClient initialMCQ={mcqData} />
-    </Suspense>
-  );
-}
+// Optionally, you can add these metadata exports
+export const dynamic = "force-dynamic";
+export const revalidate = 3600;
