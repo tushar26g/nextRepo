@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Navbar } from "@/components/layout/Navbar";
-import { Sidebar } from "@/components/layout/Sidebar";
+// import { Sidebar } from "@/components/layout/Sidebar";
 import { AdPanel } from "@/components/layout/AdPanel";
 import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
