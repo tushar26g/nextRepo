@@ -80,7 +80,7 @@ function MenuItemComponent({
 
 export function Sidebar() {
   return (
-    <div className="w-64 bg-white dark:bg-gray-800 shadow-lg fixed left-0 top-16 bottom-0 overflow-y-auto">
+    <div className="w-64 bg-white dark:bg-gray-800 shadow-lg sticky left-0 top-16 bottom-0 overflow-y-auto">
       <div className="p-4">
         {menuData.map((item) => (
           <MenuItemComponent key={item.id} item={item} />

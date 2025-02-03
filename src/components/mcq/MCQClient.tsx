@@ -31,7 +31,6 @@ export function MCQClient({ initialMCQ }: MCQClientProps) {
     <div className="max-w-4xl mx-auto p-6 bg-purple-50 dark:bg-gray-900">
       <h1 className="text-2xl mb-4 dark:text-white">{mcq.heading}</h1>
       <p className="mb-6 dark:text-gray-200">{mcq.description}</p>
-
       {currentQuestions.map((question, qIndex) => (
         <MCQQuestion
           key={startIndex + qIndex}
