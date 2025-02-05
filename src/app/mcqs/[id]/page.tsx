@@ -1,7 +1,11 @@
-import { Suspense } from "react";
 import { MCQClient } from "@/components/mcq/MCQClient";
 import { MCQ } from "@/types/mcq";
 import URL from "../../../../public/properties";
+
+// 🔹 Define Props Type
+interface MCQPageProps {
+  params: Promise<{ id: string }>; // Make params async to match Next.js expectations
+}
 
 // 🔹 Fetch MCQ Data by ID
 async function getMCQData(id: string): Promise<MCQ> {
@@ -22,17 +26,15 @@ async function getMCQData(id: string): Promise<MCQ> {
 }
 
 // 🔹 Page Component
-export default async function MCQPage({ params }: { params: { id: string } }) {
+export default async function MCQPage({ params }: MCQPageProps) {
   try {
-    const mcqData = await getMCQData(params.id);
+    const resolvedParams = await params; // Ensure params is awaited
+    const mcqData = await getMCQData(resolvedParams.id);
 
-    return (
-      <Suspense fallback={<div>Loading...</div>}>
-        <MCQClient initialMCQ={mcqData} />
-      </Suspense>
-    );
+    return <MCQClient initialMCQ={mcqData} />;
   } catch (error) {
     console.error("Error loading MCQ:", error);
+
     return (
       <div className="flex items-center justify-center min-h-screen text-red-600">
         ❌ Error loading MCQ. Please try again later.
@@ -41,6 +43,5 @@ export default async function MCQPage({ params }: { params: { id: string } }) {
   }
 }
 
-// 🔹 Metadata & Revalidation Settings
-export const dynamic = "force-dynamic";
-export const revalidate = 3600;
+// 🔹 Dynamic Page Handling
+export const dynamic = "force-dynamic"; // Ensures fresh data on each request
