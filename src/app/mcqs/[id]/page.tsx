@@ -32,6 +32,7 @@ export default async function MCQPage({ params }: { params: { id: string } }) {
       </Suspense>
     );
   } catch (error) {
+    console.error("Error loading MCQ:", error);
     return (
       <div className="flex items-center justify-center min-h-screen text-red-600">
         ❌ Error loading MCQ. Please try again later.
