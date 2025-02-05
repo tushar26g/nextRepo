@@ -2,20 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 🔹 Light & Dark Mode Variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-light: #ffffff;
+  --foreground-light: #171717;
+  --background-dark: #0a0a0a;
+  --foreground-dark: #ededed;
+
+  /* ✅ Default Theme */
+  --background: var(--background-light);
+  --foreground: var(--foreground-light);
 }
 
+/* 🔹 Auto-switch to Dark Mode when Preferred */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--background-dark);
+    --foreground: var(--foreground-dark);
   }
 }
 
+/* 🔹 Apply Theme */
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* 🔹 Dark Mode Class (for Manual Toggle) */
+.dark {
+  --background: var(--background-dark);
+  --foreground: var(--foreground-dark);
+}
+
+/* ✅ Smooth Page Transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 🔹 Navbar Enhancements */
+nav {
+  backdrop-filter: blur(10px);
+}
+
+/* 🔹 Improve Button Click Feedback */
+button {
+  transition: transform 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.95);
 }

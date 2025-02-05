@@ -85,7 +85,7 @@ export function Footer() {
 
         {/* Footer Bottom */}
         <div className="text-center mt-4 text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} OurCompany. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} CANinjas. All Rights Reserved.</p>
           <p>Made with <span className="text-red-500">❤️</span> by ambitious people</p>
         </div>
       </div>

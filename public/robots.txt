@@ -1,0 +1,24 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow crawling of specific routes if needed
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /static/
+
+# Crawl delay to prevent server overload (optional)
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://caninjas.com/sitemap.xml
+
+# Additional sitemaps if needed (for different sections)
+# Sitemap: https://caninjas.com/sitemap-blog.xml
+# Sitemap: https://caninjas.com/sitemap-products.xml
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
