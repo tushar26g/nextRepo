@@ -1,27 +1,31 @@
 import { MCQClient } from "@/components/mcq/MCQClient";
 import { MCQ } from "@/types/mcq";
-import URL from "../../../../public/properties";
+import { getApiUrl } from "@/utils/api";
 
-// 🔹 Define Props Type
 interface MCQPageProps {
-  params: Promise<{ id: string }>; // Make params async to match Next.js expectations
+  params: { id: string };
 }
 
-// 🔹 Fetch MCQ Data by ID
 async function getMCQData(id: string): Promise<MCQ> {
   try {
-    const res = await fetch(`${URL}public/mcqs?key=${encodeURIComponent(id)}`, {
-      cache: "no-store", // Ensure fresh data on each request
+    const url = await getApiUrl(`/api/data?key=${encodeURIComponent(id)}`);
+
+    const res = await fetch(url, {
+      cache: "no-store",
+      headers: {
+        "Content-Type": "application/json",
+      },
     });
 
     if (!res.ok) {
       throw new Error(`Failed to fetch MCQ data (Status: ${res.status})`);
     }
 
-    return res.json();
+    const data = await res.json();
+    return data;
   } catch (error) {
     console.error("Error fetching MCQ:", error);
-    throw error; // Rethrow for proper handling
+    throw error;
   }
 }
 
