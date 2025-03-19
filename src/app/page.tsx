@@ -31,6 +31,7 @@ export default function Home() {
         />
         <meta name="keywords" content="CA Foundation, PYQ, Business Economics, BCK, past year papers, MCQs, ICAI" />
         <meta name="robots" content="index, follow" />
+        <meta name="CA Foundation" content="index, follow" />
       </Head>
 
       <div
