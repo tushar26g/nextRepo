@@ -9,7 +9,7 @@ export default function Error({
 }) {
   return (
     <div>
-      <h2>Something went wrong with mcqs!</h2>
+      <h2>Something went wrong with subjectives!</h2>
       <button onClick={() => reset()}>Try again</button>
       <p>{error.message}</p>
     </div>

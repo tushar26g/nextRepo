@@ -79,7 +79,7 @@ export function MCQQuestion({ question, index }: MCQQuestionProps) {
         }`}
       >
         <h3 className="mb-1 sm:mb-2 text-sm sm:text-base font-semibold">
-          {index + 1}. {renderTextWithMath(question.question, theme)}
+          {index}. {renderTextWithMath(question.question, theme)}
         </h3>
 
         <ul className="space-y-1">

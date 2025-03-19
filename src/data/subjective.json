@@ -1,0 +1,332 @@
+[
+  {
+    "heading": "CA Foundation Paper 2 - Law & BCR",
+    "key": "nov-2018-law-bcr",
+    "description": "Past Year Paper - May 2018",
+    "sections": [
+      {
+        "sectionName": "A",
+        "description": "Question no. 1 is compulsory, Attempt any four questions from the reamining five questions",
+        "questions": [
+          {
+            "questionId": "q1",
+            "question": "1) Answer the following questions:",
+            "subQuestions": [
+              {
+                "id": "q1_a",
+                "type": "subjective",
+                "question": "Mr. X and Mr. Y entered into a contract on 1st August, 2018, by which Mr. X had to supply 50 tons of sugar to Mr. Y at a certain price strictly within a period of 10 days of the contract. Mr. Y also paid an amount of ` 50,000 towards advance as per the terms of the above contract. The mode of transportation available between their places is roadway only. Severe flood came on 2nd August, 2018 and the only road connecting their places was damaged and could not be repaired within fifteen days. Mr. X offered to supply sugar on 20th August, 2018 for which Mr. Y did not agree. On 1st September, 2018, Mr. X claimed compensation of ` 10,000 from Mr. Y for refusing to accept the supply of sugar, which was not there within the purview of the contract. On the other hand, Mr. Y claimed for refund of ` 50,000 which he had paid as advance in terms of the contract. Analyse the above situation in terms of the provisions of the Indian Contract Act, 1872 and decide on Y's contention.",
+                "solution": [
+                  "Under the doctrine of Supervening Impossibility, if an unforeseen event occurs after a contract is made, rendering performance impossible, the contract is considered void.",
+                  "In this case, due to the severe flood, the only transport route was destroyed, making it impossible for Mr. X to deliver sugar within the agreed timeframe. Therefore, the contract becomes void.",
+                  "As per Section 65 of the Indian Contract Act, 1872, when a contract is discovered to be void, any benefits received must be restored. Since Mr. Y had paid an advance of ₹50,000, Mr. X is obligated to refund the amount.",
+                  "Therefore, Mr. Y's demand for a refund is legally valid, while Mr. X is not entitled to claim any compensation."
+                ]
+              },
+              {
+                "id": "q1_b",
+                "type": "subjective",
+                "question": "A company registered under section 8 of the Companies Act, 2013, earned huge profit during the financial year ended on 31st March, 2018 due to some favorable policies declared by the Government of India and implemented by the company. Considering the development, some members of the company wanted the company to distribute dividends to the members of the company. They approached you to advise them about the maximum amount of dividend that can be declared by the company as per the provisions of the Companies Act, 2013. Examine the relevant provisions of the Companies Act, 2013 and advise the members accordingly.",
+                "solution": [
+                  "As per the Companies Act, 2013, a company registered under Section 8 is a non-profit organization formed for promoting commerce, education, art, science, or social welfare.",
+                  "Such companies are legally prohibited from distributing dividends to their members, as their profits must be utilized solely for achieving their stated objectives.",
+                  "Even if the company earns substantial profits due to favorable government policies, it cannot declare dividends.",
+                  "Hence, the members' request to distribute dividends is not legally permissible."
+                ]
+              },
+              {
+                "id": "q1_c",
+                "type": "subjective",
+                "question": "Differentiate between Ascertained and Unascertained Goods with example.",
+                "solution": [
+                  "Ascertained Goods:",
+                  "- These goods are identified and separated from a larger quantity after the contract is made.",
+                  "- They become specific to the contract through selection or marking.",
+                  "- Example: If a buyer selects 5 specific paintings from an art gallery for purchase, those paintings become ascertained goods.",
+                  "\nUnascertained Goods:",
+                  "- These goods are not specifically identified at the time of contract formation and remain part of a larger bulk.",
+                  "- They are only described by type or category until they are selected.",
+                  "- Example: If a contract states that a supplier will deliver '50 bags of wheat' without specifying which bags, the goods remain unascertained until they are separated."
+                ]
+              }
+            ]
+          },
+          {
+            "questionId": "q6",
+            "question": "6) Answer the following questions:",
+            "subQuestions": [
+              {
+                "id": "q6_a",
+                "type": "subjective",
+                "question": "Explain the modes of revocation of an offer as per the Indian Contract Act, 1872.",
+                "solution": [
+                  "Modes of Revocation of an Offer:",
+                  "1. **By Notice of Revocation:** The offeror can revoke the offer by giving a notice to the offeree before acceptance.",
+                  "2. **By Lapse of Time:** If the offeree does not accept within the stipulated time or a reasonable time, the offer lapses.",
+                  "3. **By Non-fulfillment of Condition Precedent:** If the offeree fails to fulfill a required condition, the offer gets revoked.",
+                  "4. **By Death or Insanity:** If the offeror dies or becomes insane before acceptance and the offeree is aware, the offer stands revoked.",
+                  "5. **By Counter Offer:** If the offeree makes a counteroffer, the original offer is revoked.",
+                  "6. **By Non-acceptance in Prescribed Mode:** If the offeree does not accept in the prescribed or usual manner, the offer may be revoked.",
+                  "7. **By Subsequent Illegality:** If a law changes making the contract illegal, the offer is revoked."
+                ]
+              },
+              {
+                "id": "q6_b",
+                "type": "subjective",
+                "question": "State any four grounds on which Court may dissolve a partnership firm in case any partner files a suit for the same.",
+                "solution": [
+                  "Dissolution by the Court (Section 44 of the Indian Partnership Act, 1932):",
+                  "1. **Insanity/Unsound Mind:** If a partner becomes of unsound mind, the court may dissolve the firm upon suit by other partners.",
+                  "2. **Permanent Incapacity:** If a partner becomes permanently incapable of performing duties, the court may dissolve the firm.",
+                  "3. **Misconduct:** If a partner's misconduct negatively affects the business, the court may dissolve the firm.",
+                  "4. **Persistent Breach of Agreement:** If a partner consistently breaches agreements, refuses to show accounts, or embezzles funds, the court may order dissolution."
+                ]
+              },
+              {
+                "id": "q6_c",
+                "type": "subjective",
+                "question": "Mr. X had purchased some goods from M/s ABC Limited on credit. A credit period of one month was allowed to Mr. X. Before the due date Mr. X went to the company and wanted to repay the amount due from him. He found only Mr. Z there, who was the factory supervisor of the company. Mr. Z told Mr. X that the accountant and the cashier were on leave, he is in-charge of receiving money and he may pay the amount to him. Mr. Z issued a money receipt under his signature. After two months M/s ABC Limited issued a notice to Mr. X for non-payment of the dues within the stipulated period. Mr. X informed the company that he had already cleared the dues and he is no more responsible for the same. He also contended that Mr. Z is an employee of the company to whom he had made the payment and being an outsider, he trusted the words of Mr. Z as duty distribution is a job of the internal management of the company. \n Analyse the situation and decide whether Mr. X is free from his liability based on the Doctrine of Indoor Management.",
+                "solution": [
+                  "Doctrine of Indoor Management:",
+                  "The Doctrine of Indoor Management is the exception to the doctrine of constructive notice. The doctrine of constructive notice does not mean that outsiders are deemed to have notice of the internal affairs of the company. For instance, if an act is authorised by the articles or memorandum, an outsider is entitled to assume that all the detailed formalities for doing that act have been observed. The doctrine of Indoor Management is important to persons dealing with a company through its directors or other persons. They are entitled to assume that the acts of the directors or other officers of the company are validly performed, if they are within the scope of their apparent authority. So long as an act is valid under the articles, if done in a particular manner, an outsider dealing with the company is entitled to assume that it has been done in the manner required. In the given question, Mr. X has made payment to Mr. Z and he (Mr. Z) gave to receipt of the same to Mr. X. Thus, it will be rightful on part of Mr. X to assume that Mr. Z was also authorised to receive money on behalf of the company. Hence, Mr. X will be free from liability for payment of goods purchased from M/s ABC Limited, as he has paid amount due to an employee of the company"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionName": "B",
+        "description": "Question No. 7 is compulsory Attempt any three questions from the remaining four questions",
+        "questions": [
+          {
+            "questionId": "q9",
+            "question": "9) Answer the following questions:",
+            "subQuestions": [
+              {
+                "id": "q9_1",
+                "type": "subjective",
+                "question": "(i) Discuss “Cultural barrier in communication. \n OR \n (ii) What do you mean by (A) Vertical and (B) Horizontal formal communication?",
+                "solution": [
+                  "(i) Cultural Barriers in Communication",
+                  "\t Cultural barriers arise when individuals from different cultural backgrounds interpret words, gestures, or behaviors differently, leading to miscommunication. In today’s globalized world, effective cross-cultural communication is crucial. Differences in language, traditions, beliefs, and social norms can impact interactions. A simple gesture that is acceptable in one culture may be offensive in another. To address this, multinational companies provide cultural awareness training to help employees understand and adapt to diverse workplace environments, fostering better communication and collaboration.",
+                  "(ii) Vertical and Horizontal Formal Communication",
+                  "Formal Communication",
+                  "\t Formal communication is structured and follows organizational protocols. It can take different forms based on hierarchy and the direction of message flow.",
+                  "Vertical Communication: Information moves either upward (from employees to management) or downward (from management to employees). Upward communication includes reports, feedback, and suggestions, whereas downward communication involves instructions, policies, and directives.",
+                  "Horizontal Communication:",
+                  "\t This occurs between individuals or departments at the same hierarchical level within an organization. It facilitates coordination, problem-solving, and collaboration. For instance, department heads may hold meetings to discuss project progress and share resources."
+                ]
+              },
+              {
+                "id": "q9_2_1",
+                "type": "MCQ",
+                "question": "Choose the word which best expresses the meaning of the given word: \n Fiction",
+                "options": [
+                  "Fantasy",
+                  "Story",
+                  "Fact",
+                  "Reality"
+                ],
+                "ans": "Fantasy"
+              },
+              {
+                "id": "q9_2_2",
+                "type": "MCQ",
+                "question": "Choose the word which best expresses the meaning of the given word: \n Demote ",
+                "options": [
+                  "Rise",
+                  "Upgrade",
+                  "Decline",
+                  "Downgrade"
+                ],
+                "ans": "Downgrade"
+              },
+              {
+                "id": "q9_2_3",
+                "type": "subjective",
+                "question": "Change the following sentence into indirect speech : \n Shalini gave order to her younger sister, 'Go home immediately.'",
+                "solution": [
+                  "Shalini ordered her younger sister to go home immediately"
+                ]
+              },
+              {
+                "id": "q9_3",
+                "type": "subjective",
+                "question": "Write a circular addressing to the employees regarding re-organization of manpower and their responsibility in finance department of the company.",
+                "solution": [
+                  "Circular No. HR/002/2025",
+                  "Date: February 18, 2025",
+                  "Subject: Temporary Reorganization of Manpower in the Finance Department",
+                  "In view of the increased workload in the Finance Department, the following employees are being temporarily reassigned for a period of two months, effective from February 19, 2025.",
+                  "\n \n \\(\\begin{array}{|c|c|c|c|} \\hline \\text{Name} & \\text{Designation} & \\text{Current Department} & \\text{New Responsibility (Finance Dept.)} \\\\ \\hline \\text{Mr. A} & \\text{Upper Division Clerk} & \\text{Accounts} & \\text{Accounts Clerk} \\\\ \\text{Mr. B} & \\text{Project Manager} & \\text{IT} & \\text{Network Support} \\\\ \\text{Ms. C} & \\text{Office Assistant} & \\text{Sales} & \\text{Office Support} \\\\ \\hline \\end{array}\\) \n \n",
+                  "All reassigned employees are instructed to report to Mr. X (Head of Finance) at 10:00 AM on February 19, 2025.",
+                  "Work Schedule:",
+                  "Office Hours: 10:00 AM – 7:00 PM",
+                  "Working Days: Monday to Saturday (Sunday is a weekly off)",
+                  "We appreciate your cooperation and commitment to ensuring a smooth transition. \n",
+                  "[Signed]",
+                  "[HR Manager]",
+                  "[Company Name]"
+                ]
+              }
+            ]
+          },
+          {
+            "questionId": "q10",
+            "question": "10) Answer the following questions:",
+            "subQuestions": [
+              {
+                "id": "q10_1",
+                "type": "subjective",
+                "question": "How do Technology barriers effects communication? Explain",
+                "solution": [
+                  "In today's digital world, communication relies heavily on technology. While advancements have made global interaction seamless, they also create barriers that hinder effective communication.",
+                  "One major challenge is the rapid evolution of technology. With constant upgrades and new platforms emerging frequently, individuals who are not tech-savvy struggle to keep up, leading to communication gaps. For example, employees unfamiliar with advanced virtual meeting tools may find it difficult to collaborate effectively in remote work settings.",
+                  "Another issue is information overload. With countless emails, messages, and notifications bombarding individuals daily, important communications may be overlooked or misunderstood. Multitasking has become common, but it often reduces focus and leads to errors in interpreting information.",
+                  "Technical issues such as poor internet connectivity, software malfunctions, or incompatible devices can also disrupt communication. Virtual meetings may be interrupted by lagging video calls or distorted audio, causing misunderstandings.",
+                  "Moreover, lack of digital literacy among certain groups, such as elderly individuals or those from underprivileged backgrounds, can create a communication divide. Without proper training, they may struggle to use modern communication tools effectively.",
+                  "To overcome these barriers, organizations and individuals must invest in digital literacy programs, ensure the use of user-friendly communication platforms, and manage information flow efficiently."
+                ]
+              },
+              {
+                "id": "q10_2_1",
+                "type": "subjective",
+                "question": "Fill up the blank with the most suitable preposition or adverb given in the brackets. \n He apologized_______ his teacher for his misbehaviour. (to /from / with / against)",
+                "solution": [
+                  "to"
+                ]
+              },
+              {
+                "id": "q10_2_2",
+                "type": "subjective",
+                "question": "Rewrite the following sentence in Passive Voice. \n Sunita said, 'Please give me a glass of water.' ",
+                "solution": [
+                  "Sunita said, 'A glass of water be kindly given to me' / Sunita requested that a glass of water be given to her."
+                ]
+              },
+              {
+                "id": "q10_2_3",
+                "type": "subjective",
+                "question": "Rewrite the following sentence in Active Voice. \n The case should be handled by you carefully since it is critical in nature. ",
+                "solution": [
+                  "You should handle the case carefully since it is critical in nature"
+                ]
+              },
+              {
+                "id": "q10_3",
+                "type": "subjective",
+                "question": "Write a Newspaper Report in 250 words on the topic: \n 'Daughter of Gardener Tops Board Exams.' ",
+                "solution": [
+                  "Newspaper Report: 'Daughter of a Gardener Tops Board Exams'",
+                  "Priya Kumari Achieves Academic Milestone Despite Challenges",
+                  "June 25, 2025 | Staff Correspondent",
+                  "New Delhi: In an inspiring tale of perseverance and determination, Priya Kumari, daughter of a gardener, has topped the Class XII CBSE Board Examination in the Humanities stream with an outstanding 98.8% marks. Her success has brought immense pride to her family, school, and community.",
+                  "Priya, a student of Rajkiya Kanya Pratibha Vidyalaya, Sardar Patel Marg, overcame significant challenges on her journey to success. Despite battling meningitis that left her bedridden for two months, she did not let adversity deter her. With unwavering support from her school principal and teachers, she caught up with her studies and emerged as the national topper.",
+                  "Her father, Ram Swaroop, a gardener and a Class IV government employee, beamed with pride as he expressed his wish for his daughter to become an IAS officer. Her mother, overwhelmed with joy, celebrated the achievement by preparing Priya’s favorite sweets.",
+                  "Teachers at her school lauded Priya’s dedication, mentioning that she was always a bright and hardworking student. 'We expected her to top in the region, but securing the highest marks nationwide was a delightful surprise,' said one of her teachers.",
+                  "Priya, who aspires to pursue English Honours from Lady Shri Ram College, attributes her success to her disciplined study routine, unwavering determination, and the unwavering support of her parents and teachers. With her relentless efforts, she is well on her way to fulfilling her father’s dream of seeing her serve the nation as an IAS officer.",
+                  "Her story serves as an inspiration to countless students across the country, proving that with hard work and perseverance, no dream is too big to achieve"
+                ]
+              }
+            ]
+          },
+          {
+            "questionId": "q11",
+            "question": "11) Answer the following questions:",
+            "subQuestions": [
+              {
+                "id": "q11_a",
+                "type": "subjective",
+                "question": "Non-verbal is also one of the Broad Categories of Communication? Explain.",
+                "solution": [
+                  "Paralanguage in Communication",
+                  "\t Paralanguage refers to the way a message is delivered rather than the words themselves. It includes voice quality, intonation, pitch, stress, emotion, and speaking style. These elements help convey approval, interest, or disinterest. Research suggests that tone accounts for 38% of communication.",
+                  "Cultural Barriers in Communication",
+                  "\t Cultural barriers arise when individuals from different cultural backgrounds struggle to understand each other. Differences in language, symbols, traditions, and communication styles can create misunderstandings. Multinational companies often provide cultural training to employees to bridge these gaps."
+                ]
+              },
+              {
+                "id": "q11_b_i",
+                "type": "MCQ",
+                "question": "Select the correct meaning of the following idioms/phrases among the alternatives given below \n Out of the blue",
+                "options": [
+                  "Something happens that was unexpected",
+                  "Something happens that was very much expected.",
+                  "From the sky",
+                  "From the Ocean"
+                ],
+                "ans": "Something happens that was unexpected"
+              },
+              {
+                "id": "q11_b_ii",
+                "type": "MCQ",
+                "question": "Select the correct meaning of the following idioms/phrases among the alternatives given below \n Day in and day out",
+                "options": [
+                  "Coming and returning in day time",
+                  "The day of importance",
+                  "Continuously",
+                  "Within a day"
+                ],
+                "ans": "Continuously"
+              },
+              {
+                "id": "q11_b_iii",
+                "type": "subjective",
+                "question": "Rewrite the following sentence in the Active Voice : \n The deer was trapped by the cunning fox.",
+                "solution": [
+                  "The cunning fox trapped the deer."
+                ]
+              },
+              {
+                "id": "q11_c",
+                "type": "subjective",
+                "question": "What are the essential elements to form a LLP in India as per the LLP Act, 2008?",
+                "solution": [
+                  "Cover Letter \n",
+                  "Mohit Agarwal",
+                  "[Your Address]",
+                  "Meerut, India",
+                  "[Your Email] | [Your Phone Number]",
+                  "August 2, 2018",
+                  "Hiring Manager",
+                  "[TV Channel Name]",
+                  "[Company Address] \n ",
+                  "Subject: Application for the Post of Journalist \n ",
+                  "Dear Hiring Manager, \n ",
+                  "I recently came across your advertisement in The Times of India (dated August 1, 2018) regarding a vacancy for a journalist. I am eager to apply for this role as I possess a strong background in journalism with excellent writing and reporting skills.",
+                  "I hold a degree in Journalism and Mass Communication and have [X] years of experience in news reporting and content creation. My ability to deliver factual and engaging reports, along with my keen eye for investigative journalism, makes me a strong candidate for this position.",
+                  "I have attached my resume for your consideration. I look forward to the opportunity to discuss how my skills can contribute to your esteemed organization.",
+                  "Thank you for your time and consideration. \n ",
+                  "Sincerely,",
+                  "Mohit Agarwal \n ",
+                  "Resume \n ",
+                  "Mohit Agarwal",
+                  "Meerut, India | [Your Email] | [Your Phone Number]",
+                  "Objective",
+                  "\t Enthusiastic and detail-oriented journalist seeking a position at [TV Channel Name] to contribute strong research, writing, and reporting skills.",
+                  "Education",
+                  "\t Bachelor’s in Journalism & Mass Communication",
+                  "\t [University Name], [Year of Completion]",
+                  "Work Experience",
+                  "Journalist | [Previous Organization Name]",
+                  "[Month/Year] – Present",
+                  "\t Researched and reported news stories across multiple platforms.",
+                  "\t Conducted interviews and covered breaking news.",
+                  "\t Developed engaging content for print and digital media.",
+                  "Skills",
+                  "\t Strong research and investigative skills",
+                  "\t Excellent writing and communication abilities",
+                  "\t Proficiency in digital journalism and video reporting",
+                  "\t Adaptability to fast-paced environments",
+                  "Languages",
+                  "\t English, Hindi"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
