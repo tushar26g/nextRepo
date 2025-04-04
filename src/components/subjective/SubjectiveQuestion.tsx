@@ -72,7 +72,7 @@ const SubjectiveQuestion = ({ question }: SubjectiveQuestionProps) => {
 
         {isOpen && (
           <div className="mt-4">
-            {question.subQuestions.map((subQ, subIndex) => {
+            {question.subQuestions.map((subQ) => {
               console.log(subQ.id[subQ.id.length - 1]);
 
               return (

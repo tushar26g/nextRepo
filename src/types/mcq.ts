@@ -1,13 +1,14 @@
 export interface MCQQuestion {
+  ans: string;
   question: string;
   options: string[];
-  ans: string;
   solution?: string[];
 }
 
 export interface MCQ {
-  heading: string;
   description: string;
+  heading: string;
+  key: string;
   questions: MCQQuestion[];
   next?: string;
   previous?: string;
