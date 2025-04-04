@@ -34,15 +34,8 @@ const SubjectiveClient = ({ data }: SubjectiveClientProps) => {
               Section {section.sectionName}
             </h2>
             <p className="text-gray-600 mt-2">{section.description}</p>
-            {section.questions.map((question) => {
-              // console.log(index, question); // Logs each question before rendering
-
-              return (
-                <SubjectiveQuestion
-                  key={question.questionId}
-                  question={question}
-                />
-              );
+            {section.questions.map((question, index) => {
+              return <SubjectiveQuestion questions={question} key={index} />;
             })}
           </div>
         </div>
