@@ -38,21 +38,13 @@ import { promises as fs } from "fs";
 //   return paper;
 // }
 
-export default async function SubjectivePage({
-  params,
-}: {
-  params: { id: string };
-}) {
-  try {
-    const data = await getSubjectiveData(params.id);
+export default async function SubjectivePage({ params }: SubjectivePageProps) {
+  const resolvedParams = await params; // Ensure params is awaited
+  const data = await getSubjectiveData(resolvedParams.id);
 
-    return (
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <SubjectiveClient data={data} />
-      </main>
-    );
-  } catch (error) {
-    console.log(error);
-    return <div>Error loading Subjective questions</div>;
-  }
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <SubjectiveClient data={data} />
+    </main>
+  );
 }
