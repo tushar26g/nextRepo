@@ -3,7 +3,7 @@
 import { Questions } from "@/types/subjective";
 
 interface SubjectiveQuestionProps {
-  question: Question;
+  questions: Questions;
 }
 
 const SubjectiveQuestion = ({ question }: SubjectiveQuestionProps) => {
