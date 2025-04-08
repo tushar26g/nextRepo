@@ -1,11 +1,7 @@
-// import SubjectiveClient from "@/components/subjective/SubjectiveClient";
-// import { SubjectivePaper } from "@/types/subjective";
-// import path from "path";
-// import { promises as fs } from "fs";
-
-// interface SubjectivePageProps {
-//   params: { id: string };
-// }
+import SubjectiveClient from "@/components/subjective/SubjectiveClient";
+import { SubjectivePaper } from "@/types/subjective";
+import path from "path";
+import { promises as fs } from "fs";
 
 // // async function getSubjectiveData(id: string) {
 // //   // Replace with your actual API endpoint
@@ -42,13 +38,13 @@
 //   return paper;
 // }
 
-// export default async function SubjectivePage({ params }: SubjectivePageProps) {
-//   const resolvedParams = await params; // Ensure params is awaited
-//   const data = await getSubjectiveData(resolvedParams.id);
+export default async function SubjectivePage({ params }: SubjectivePageProps) {
+  const resolvedParams = await params; // Ensure params is awaited
+  const data = await getSubjectiveData(resolvedParams.id);
 
-//   return (
-//     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-//       <SubjectiveClient data={data} />
-//     </main>
-//   );
-// }
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <SubjectiveClient data={data} />
+    </main>
+  );
+}

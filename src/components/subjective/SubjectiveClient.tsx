@@ -26,27 +26,20 @@
 
 //       <hr className="my-6 border-t border-gray-200" />
 
-//       {/* Main Content */}
-//       {data.sections.map((section) => (
-//         <div key={section.sectionName} id={`section-${section.sectionName}`}>
-//           <div className="mt-8">
-//             <h2 className="text-2xl font-bold">
-//               Section {section.sectionName}
-//             </h2>
-//             <p className="text-gray-600 mt-2">{section.description}</p>
-//             {section.questions.map((question, index) => {
-//               // console.log(index, question); // Logs each question before rendering
-
-//               return (
-//                 <SubjectiveQuestion
-//                   key={question.questionId}
-//                   question={question}
-//                 />
-//               );
-//             })}
-//           </div>
-//         </div>
-//       ))}
+      {/* Main Content */}
+      {data.sections.map((section) => (
+        <div key={section.sectionName} id={`section-${section.sectionName}`}>
+          <div className="mt-8">
+            <h2 className="text-2xl font-bold">
+              Section {section.sectionName}
+            </h2>
+            <p className="text-gray-600 mt-2">{section.description}</p>
+            {section.questions.map((question, index) => {
+              return <SubjectiveQuestion questions={question} key={index} />;
+            })}
+          </div>
+        </div>
+      ))}
 
 //       {/* Bottom Section Links */}
 //       <div className="mt-8 p-4 bg-gray-50 rounded-lg">
